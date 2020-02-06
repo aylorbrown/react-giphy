@@ -14,24 +14,9 @@ export default class GiphyApp extends React.Component {
         };
     }
 
-
-    // features you need:
-
-    //  a button 
-    // when you click the button, it runs a helper function 
-        // - to begin with, just console.log inside helper 
-    // some state 
-        // - to begin with, an empty array
-    // update helper function 
-        // - it should add the string 'hello' to the array 
-
-    // open the component inspector
-    // make sure that the state array should get another 'hello' 
-    // string added to it everytime you click the button 
-
     render() {
         return(
-            <div>
+            <div className='button'>
                 <button onClick={this._getGiphy}>💅🏾</button>
 
                 <br />
@@ -50,7 +35,6 @@ export default class GiphyApp extends React.Component {
 
         axios.get(giphyUrl) 
             .then(response => {
-                // console.log(response.data.data.images.downsized_large);
                 this.setState({
                     giphies: [
                         response.data.data.images.downsized_large,
@@ -61,7 +45,5 @@ export default class GiphyApp extends React.Component {
             .catch(err=> {
                 console.log('Yeah, no giphy for you')
             })
-        console.log('hello');
-        // updates helper function to add a stting 'hello' to the array
     }
 }
