@@ -17,7 +17,7 @@ export default class GiphyApp extends React.Component {
     render() {
         return(
             <div className='button'>
-                <button onClick={this._getGiphy}>💅🏾</button>
+                <button onClick={this._getGiphy}>🐝🐝 </button>
 
                 <br />
                 {

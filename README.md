@@ -7,6 +7,7 @@ Features:
 ```npm install axios```
 
 Import axios:
+
 ```import axios from 'axios';```
 
 Make a GiphyApp class. Remember, you want to make a class when it is *interactive* or *uses AJAX*:
@@ -69,11 +70,13 @@ _getGiphy = () => {
     }
 ```
 
+
 Demo: 
 
 
+![BeyonceGifDemo](Kapture-2020-02-06-at-14.45.16.gif)
 
-Demo with console:
+
 
 
 
