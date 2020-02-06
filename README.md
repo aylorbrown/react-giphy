@@ -74,7 +74,7 @@ _getGiphy = () => {
 Demo: 
 
 
-![BeyonceGifDemo](Kapture-2020-02-06-at-14.45.16.gif)
+![BeyonceGifDemo](Kapture-2020-02-06-at-14.50.31.gif)
 
 
 
